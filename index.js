@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('܂܂܂ ˚ ་། ࿔ ♡')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://files.catbox.moe/zwypod.png') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1042279925572444171/1203593214750101534/Untitled74_20240204014934.png?ex=65d1a888&is=65bf3388&hm=cc9f8747a46e8f30e7845589663cfbcc952a177e5fbfe2dc880bb8d1e20547a3&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('edited by me ~') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
