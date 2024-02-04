@@ -23,15 +23,15 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1203579059565494383')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('Recording')
-    .setName('܂܂܂ ˚ ་། ࿔ ♡')
+    .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1042279925572444171/1203593214750101534/Untitled74_20240204014934.png?ex=65d1a888&is=65bf3388&hm=cc9f8747a46e8f30e7845589663cfbcc952a177e5fbfe2dc880bb8d1e20547a3&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('edited by me ~') //Text when you hover the Large image
+ .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
     .addButton('๘✚ಎ', 'https://rentry.net/3rdharbinger')
